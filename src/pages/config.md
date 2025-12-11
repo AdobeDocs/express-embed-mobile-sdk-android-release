@@ -1,5 +1,5 @@
 - pathPrefix:
-    - /dev-docs-template/
+    - /express-embed-mobile-sdk-android-release/
 
 - pages:
     - [Analytics](index.md)
