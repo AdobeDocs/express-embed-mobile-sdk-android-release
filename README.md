@@ -16,7 +16,7 @@ Add the SDK’s Maven repository to your root project.
         repositories {
             google()
             mavenCentral()
-            maven { url = uri("https://annu588.github.io/embed-sdk-mobile/maven/") }
+            maven { url = uri("https://adobedocs.github.io/express-embed-mobile-sdk-android-release/maven/") }
         }
     }
     
