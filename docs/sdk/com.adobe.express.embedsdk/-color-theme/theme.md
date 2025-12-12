@@ -1,0 +1,6 @@
+//[sdk](../../../index.md)/[com.adobe.express.embedsdk](../index.md)/[ColorTheme](index.md)/[theme](theme.md)
+
+# theme
+
+[androidJvm]\
+val [theme](theme.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html)
