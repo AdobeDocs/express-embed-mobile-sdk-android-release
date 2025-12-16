@@ -1,0 +1,6 @@
+//[sdk](../../../index.md)/[com.adobe.express.embedsdk](../index.md)/[Clients](index.md)/[Clients](-clients.md)
+
+# Clients
+
+[androidJvm]\
+constructor(CCX: [CCX](../-c-c-x/index.md)? = null, IMS: [IMS](../-i-m-s/index.md)? = null, CC_EVERYWHERE_SDK: [CCEverywhereSDK](../-c-c-everywhere-s-d-k/index.md)? = null, INGEST: [IngestData](../-ingest-data/index.md)? = null, INVITATIONS: [Invitations](../-invitations/index.md)? = null, CONTENT_SEARCH_SERVICE: [ContentSearchService](../-content-search-service/index.md)? = null, DUMMY_CLIENT_APP: [DummyClientApp](../-dummy-client-app/index.md)? = null, CCD: [CCD](../-c-c-d/index.md)? = null, CONTENT_CAL: [ContentCal](../-content-cal/index.md)? = null, STOCK: [Stock](../-stock/index.md)? = null, AEM_ASSETS: [AEMAssets](../-a-e-m-assets/index.md)? = null, AEM_ASSETS_CONTENT_HUB: [AEMAssetsContentHub](../-a-e-m-assets-content-hub/index.md)? = null, A_DOT_COM: [ADotCom](../-a-dot-com/index.md)? = null, A_DOT_COM_LEGACY: [ADotComLegacy](../-a-dot-com-legacy/index.md)? = null, BRIDGE: [Bridge](../-bridge/index.md)? = null, ACROBAT_EXT: [AcrobatExt](../-acrobat-ext/index.md)? = null, ACROBAT_READER: [AcrobatReader](../-acrobat-reader/index.md)? = null, TEST_APP: [TestApp](../-test-app/index.md)? = null, EPL_CLIENT_ID: [EPL](../-e-p-l/index.md), PLATFORM_CS_API: [PlatformCsApi](../-platform-cs-api/index.md)? = null)
