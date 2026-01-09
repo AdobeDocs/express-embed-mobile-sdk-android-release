@@ -778,7 +778,8 @@ $dokka.location:com.adobe.express.embedsdk/HostId/value/#/PointingToDeclaration/
 $dokka.location:com.adobe.express.embedsdk/HostId/valueOf/#kotlin.String/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-id/value-of.md
 $dokka.location:com.adobe.express.embedsdk/HostId/values/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-id/values.md
 $dokka.location:com.adobe.express.embedsdk/HostInfoComputed///PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-info-computed/index.md
-$dokka.location:com.adobe.express.embedsdk/HostInfoComputed/HostInfoComputed/#kotlin.String?#com.adobe.express.embedsdk.HostId?#com.adobe.express.embedsdk.HostType?#kotlin.Boolean?#com.adobe.express.embedsdk.DeviceInfo?#kotlin.String?/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-info-computed/-host-info-computed.md
+$dokka.location:com.adobe.express.embedsdk/HostInfoComputed/HostInfoComputed/#kotlin.String?#com.adobe.express.embedsdk.HostId?#com.adobe.express.embedsdk.HostType?#kotlin.Boolean?#com.adobe.express.embedsdk.DeviceInfo?#kotlin.String?#kotlin.String?/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-info-computed/-host-info-computed.md
+$dokka.location:com.adobe.express.embedsdk/HostInfoComputed/appId/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-info-computed/app-id.md
 $dokka.location:com.adobe.express.embedsdk/HostInfoComputed/deviceInfo/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-info-computed/device-info.md
 $dokka.location:com.adobe.express.embedsdk/HostInfoComputed/id/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-info-computed/id.md
 $dokka.location:com.adobe.express.embedsdk/HostInfoComputed/isFirstPartyHost/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-host-info-computed/is-first-party-host.md
@@ -1051,14 +1052,16 @@ $dokka.location:com.adobe.express.embedsdk/PublishTarget/value/#/PointingToDecla
 $dokka.location:com.adobe.express.embedsdk/PublishTarget/valueOf/#kotlin.String/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-publish-target/value-of.md
 $dokka.location:com.adobe.express.embedsdk/PublishTarget/values/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-publish-target/values.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys///PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/index.md
+$dokka.location:com.adobe.express.embedsdk/QueryKeys/APP_ID/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-a-p-p_-i-d.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/CC_EVERYWHERE_HOST_CLIENT_ID/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-c-c_-e-v-e-r-y-w-h-e-r-e_-h-o-s-t_-c-l-i-e-n-t_-i-d.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/CC_EVERYWHERE_PROTOCOL_VERSION/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-c-c_-e-v-e-r-y-w-h-e-r-e_-p-r-o-t-o-c-o-l_-v-e-r-s-i-o-n.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/EMBED/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-e-m-b-e-d.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/FEATURE_FLAGS/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-f-e-a-t-u-r-e_-f-l-a-g-s.md
+$dokka.location:com.adobe.express.embedsdk/QueryKeys/HOST_TYPE/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-h-o-s-t_-t-y-p-e.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/LOCALE/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-l-o-c-a-l-e.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/ORIGINAL_PATHNAME/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-o-r-i-g-i-n-a-l_-p-a-t-h-n-a-m-e.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/PLATFORM/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-p-l-a-t-f-o-r-m.md
-$dokka.location:com.adobe.express.embedsdk/QueryKeys/QueryKeys/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-query-keys.md
+$dokka.location:com.adobe.express.embedsdk/QueryKeys/QueryKeys/#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-query-keys.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/REFERRER/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-r-e-f-e-r-r-e-r.md
 $dokka.location:com.adobe.express.embedsdk/QueryKeys/USER_ID/#/PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-keys/-u-s-e-r_-i-d.md
 $dokka.location:com.adobe.express.embedsdk/QueryParams///PointingToDeclaration/sdk/com.adobe.express.embedsdk/-query-params/index.md
