@@ -1,11 +1,18 @@
 //[sdk](index.md)
 
-# sdk
+# express-embed-mobile-sdk-android
 
 
 ## Version Information
 
-**SDK Version:** 1.0.7
+**SDK Version:** 1.0.17
+
+## Installation Guide
+
+For detailed installation instructions, please visit:
+[Adobe Express Embed SDK - Android Installation Guide](https://github.com/AdobeDocs/express-embed-mobile-sdk-android-release?tab=readme-ov-file#adobe-express-embed-sdk--android)
+
+
 
 ## Packages
 

@@ -6,8 +6,6 @@
 
 Follow these steps to add the SDK to your Android project.
 
----
-
 ### **Step 1 — Add the SDK dependency**
 
 Add the latest Adobe Express Embed SDK release to your module’s build.gradle:

@@ -2,5 +2,5 @@
 
 # mAuthOption
 
-[androidJvm]\
-typealias [mAuthOption](index.md) = [BaseAuthOption](../-base-auth-option/index.md)
+\
+typealias [mAuthOption](index.md) = [BaseAuthOption](../base-auth-option/index.md)
