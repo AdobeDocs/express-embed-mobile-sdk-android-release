@@ -1,0 +1,18 @@
+//[sdk](../../../index.md)/[com.adobe.express.embedsdk](../index.md)/[AEMAssets](index.md)
+
+# AEMAssets
+
+\
+data class [AEMAssets](index.md)(val CLIENT_ID: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html))
+
+## Constructors
+
+| | |
+|---|---|
+| [AEMAssets](a-e-m-assets.md) | <br>constructor(CLIENT_ID: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html)) |
+
+## Properties
+
+| Name | Summary |
+|---|---|
+| [CLIENT_ID](c-l-i-e-n-t_-i-d.md) | <br>val [CLIENT_ID](c-l-i-e-n-t_-i-d.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html) |

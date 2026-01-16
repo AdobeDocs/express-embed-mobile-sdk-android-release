@@ -1,0 +1,6 @@
+//[sdk](../../../index.md)/[com.adobe.express.embedsdk](../index.md)/[EditFurtherExportOption](index.md)/[style](style.md)
+
+# style
+
+\
+open override val [style](style.md): [U](index.md)
