@@ -6,25 +6,11 @@
 
 Follow these steps to add the SDK to your Android project.
 
-### 1. Add the Maven repository
+---
 
-Add the SDK’s Maven repository to your root project.
+### **Step 1 — Add the SDK dependency**
 
-```groovy
-dependencyResolutionManagement {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url = uri("https://adobedocs.github.io/express-embed-mobile-sdk-android-release/maven/") }
-    }
-}
-```
-
-![](.github/images/step1.png)
-
-### 2. Add the SDK dependency
-
-Add the latest stable Adobe Express Embed SDK release to your module’s build.gradle:
+Add the latest Adobe Express Embed SDK release to your module’s build.gradle:
 
 Version - Please refer to [GitHub Releases](https://github.com/AdobeDocs/express-embed-mobile-sdk-android-release/releases) to get the latest version.
 
@@ -38,6 +24,12 @@ dependencies {
 
 That’s it — sync your project and start using the SDK
 
+## Integration Guide
+
+Once the embed sdk dependency is installed, import the package in the your app's module to start integration.
+
+    `import com.adobe.express.embedsdk.ExpressEmbedSdk`
+
 ## API Documentation
 
-For detailed information about available classes, methods, callbacks, and configuration options, please refer to the 👉 [**API Reference**](./docs/index.md).
+For detailed information about available classes, methods, callbacks, and configuration options, please refer to the 👉 [API Reference](https://adobedocs.github.io/express-embed-mobile-sdk-android-release/).
