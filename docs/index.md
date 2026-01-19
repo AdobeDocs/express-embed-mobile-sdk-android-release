@@ -5,7 +5,7 @@
 
 ## Version Information
 
-**SDK Version:** 1.0.17
+**SDK Version:** 1.0.16-beta
 
 ## Installation Guide
 
