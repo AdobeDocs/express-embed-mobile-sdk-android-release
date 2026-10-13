@@ -3,7 +3,7 @@
 # onActionTimeout
 
 \
-abstract fun [onActionTimeout](on-action-timeout.md)(actionIntent: [ActionIntent](../action-intent/index.md)?)
+abstract fun [onActionTimeout](on-action-timeout.md)(actionIntent: ActionIntent?)
 
 Called when an action times out during launch
 

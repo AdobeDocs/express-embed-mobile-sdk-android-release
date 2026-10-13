@@ -3,4 +3,4 @@
 # warmup
 
 \
-abstract fun [warmup](warmup.md)(intent: [ActionIntent](../action-intent/index.md), context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), mode: [WarmupMode](../warmup-mode/index.md), moduleWarmupConfig: [ModuleWarmupConfig](../module-warmup-config/index.md)? = null)
+abstract fun [warmup](warmup.md)(intent: ActionIntent, context: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), mode: WarmupMode, moduleWarmupConfig: [ModuleWarmupConfig](../module-warmup-config/index.md)? = null)

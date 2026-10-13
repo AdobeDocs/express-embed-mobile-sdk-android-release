@@ -3,17 +3,17 @@
 # TemplateEditorWarmupConfig
 
 \
-data class [TemplateEditorWarmupConfig](index.md)(val quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, val exportConfig: [ExportConfig](../export-config/index.md)? = null)
+data class [TemplateEditorWarmupConfig](index.md)(val quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, val exportConfig: ExportConfig? = null)
 
 ## Constructors
 
 | | |
 |---|---|
-| [TemplateEditorWarmupConfig](template-editor-warmup-config.md) | <br>constructor(quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, exportConfig: [ExportConfig](../export-config/index.md)? = null) |
+| [TemplateEditorWarmupConfig](template-editor-warmup-config.md) | <br>constructor(quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, exportConfig: ExportConfig? = null) |
 
 ## Properties
 
 | Name | Summary |
 |---|---|
-| [exportConfig](export-config.md) | <br>val [exportConfig](export-config.md): [ExportConfig](../export-config/index.md)? = null |
+| [exportConfig](export-config.md) | <br>val [exportConfig](export-config.md): ExportConfig? = null |
 | [quickActionAppConfig](quick-action-app-config.md) | <br>val [quickActionAppConfig](quick-action-app-config.md): TemplateEditorQuickActionAppConfig? = null |

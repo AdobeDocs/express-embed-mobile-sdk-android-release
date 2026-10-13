@@ -3,7 +3,7 @@
 # activeWorkflow
 
 \
-abstract fun [activeWorkflow](active-workflow.md)(): [ActionIntent](../action-intent/index.md)?
+abstract fun [activeWorkflow](active-workflow.md)(): ActionIntent?
 
 Returns the currently active workflow, if any.
 

@@ -11,4 +11,4 @@ Functional interface for providing authentication configuration to the SDK.
 
 | Name | Summary |
 |---|---|
-| [invoke](invoke.md) | <br>abstract fun [invoke](invoke.md)(): [AuthOption](../auth-option/index.md)<br>Provides the authentication option for the current session. |
+| [invoke](invoke.md) | <br>abstract fun [invoke](invoke.md)(): AuthOption<br>Provides the authentication option for the current session. |

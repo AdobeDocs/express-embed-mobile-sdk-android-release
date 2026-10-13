@@ -5,4 +5,4 @@
 \
 fun [setAuthProvider](set-auth-provider.md)(authProvider: [AuthProvider](../auth-provider/index.md))
 
-Sets the authentication provider for this controller. The provider supplies [AuthOption](../auth-option/index.md) when authentication is needed.
+Sets the authentication provider for this controller. The provider supplies AuthOption when authentication is needed.

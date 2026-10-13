@@ -3,4 +3,4 @@
 # invoke
 
 \
-open operator override fun [invoke](invoke.md)(authStore: [AuthStore](../auth-store/index.md), channelMessageListener: ChannelMessageListener, hostInfo: [HostInfoExtended](../host-info-extended/index.md), locale: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html), analyticsManager: AnalyticsManager, performanceLogger: PerformanceLogger): [BaseAuthController](../base-auth-controller/index.md)
+open operator override fun [invoke](invoke.md)(authStore: [AuthStore](../auth-store/index.md), channelMessageListener: ChannelMessageListener, hostInfo: HostInfoExtended, locale: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html), analyticsManager: AnalyticsManager, performanceLogger: PerformanceLogger): [BaseAuthController](../base-auth-controller/index.md)

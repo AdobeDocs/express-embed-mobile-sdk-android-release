@@ -3,7 +3,7 @@
 # activePreloadIntent
 
 \
-abstract fun [activePreloadIntent](active-preload-intent.md)(): [Set](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/set/index.html)&lt;[ActionIntent](../action-intent/index.md)&gt;?
+abstract fun [activePreloadIntent](active-preload-intent.md)(): [Set](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/set/index.html)&lt;ActionIntent&gt;?
 
 #### Return
 

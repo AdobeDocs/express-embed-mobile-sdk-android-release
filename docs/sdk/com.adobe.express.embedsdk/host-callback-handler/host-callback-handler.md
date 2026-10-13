@@ -3,4 +3,4 @@
 # HostCallbackHandler
 
 \
-constructor(hostCallbacks: [Callbacks](../callbacks/index.md)? = null)
+constructor(hostCallbacks: Callbacks? = null)

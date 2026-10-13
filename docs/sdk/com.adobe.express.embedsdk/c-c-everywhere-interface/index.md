@@ -20,5 +20,5 @@ Main interface providing access to Adobe Express Embed SDK functionality. Entry 
 
 | Name | Summary |
 |---|---|
-| [activeWorkflow](active-workflow.md) | <br>abstract fun [activeWorkflow](active-workflow.md)(): [ActionIntent](../action-intent/index.md)?<br>Returns the currently active workflow, if any. |
+| [activeWorkflow](active-workflow.md) | <br>abstract fun [activeWorkflow](active-workflow.md)(): ActionIntent?<br>Returns the currently active workflow, if any. |
 | [close](close.md) | <br>abstract fun [close](close.md)(): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html)<br>Closes the current active workflow and cleans up resources. |

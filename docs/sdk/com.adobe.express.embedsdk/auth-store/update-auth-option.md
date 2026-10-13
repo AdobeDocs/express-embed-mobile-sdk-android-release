@@ -3,4 +3,4 @@
 # updateAuthOption
 
 \
-fun [updateAuthOption](update-auth-option.md)(authOption: [AuthOption](../auth-option/index.md))
+fun [updateAuthOption](update-auth-option.md)(authOption: AuthOption)

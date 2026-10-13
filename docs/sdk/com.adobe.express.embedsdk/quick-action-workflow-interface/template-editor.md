@@ -3,6 +3,6 @@
 # templateEditor
 
 \
-abstract fun [templateEditor](template-editor.md)(quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, exportConfig: [ExportConfig](../export-config/index.md)? = null, containerConfig: [ContainerConfig](../container-config/index.md)? = null, fragment: [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html))
+abstract fun [templateEditor](template-editor.md)(quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, exportConfig: ExportConfig? = null, containerConfig: ContainerConfig? = null, fragment: [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html))
 
 Launches the template editor quick action workflow for editing templates.

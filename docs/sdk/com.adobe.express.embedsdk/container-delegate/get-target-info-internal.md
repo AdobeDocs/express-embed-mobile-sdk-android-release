@@ -3,4 +3,4 @@
 # getTargetInfoInternal
 
 \
-abstract fun [getTargetInfoInternal](get-target-info-internal.md)(): [TargetInfo](../target-info/index.md)
+abstract fun [getTargetInfoInternal](get-target-info-internal.md)(): TargetInfo

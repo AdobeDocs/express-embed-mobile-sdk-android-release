@@ -3,4 +3,4 @@
 # exportConfig
 
 \
-val [exportConfig](export-config.md): [ExportConfig](../export-config/index.md)? = null
+val [exportConfig](export-config.md): ExportConfig? = null
