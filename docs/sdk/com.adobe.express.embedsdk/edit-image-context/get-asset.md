@@ -3,7 +3,7 @@
 # getAsset
 
 \
-abstract suspend fun [getAsset](get-asset.md)(assetConfig: AssetConfig): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/list/index.html)&lt;OutputAsset&gt;
+abstract suspend fun [getAsset](get-asset.md)(assetConfig: AssetConfig): [List](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin.collections/list/index.html)&lt;[OutputAsset](../output-asset/index.md)&gt;
 
 Gets the published assets from the current editing session
 

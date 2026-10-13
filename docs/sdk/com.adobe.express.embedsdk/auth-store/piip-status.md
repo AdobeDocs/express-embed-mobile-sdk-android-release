@@ -3,4 +3,4 @@
 # piipStatus
 
 \
-var [piipStatus](piip-status.md): PIIPStatus?
+var [piipStatus](piip-status.md): [PIIPStatus](../p-i-i-p-status/index.md)?

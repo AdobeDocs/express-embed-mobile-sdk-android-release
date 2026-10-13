@@ -3,4 +3,4 @@
 # containerConfig
 
 \
-val [containerConfig](container-config.md): ContainerConfig? = null
+val [containerConfig](container-config.md): [ContainerConfig](../container-config/index.md)? = null

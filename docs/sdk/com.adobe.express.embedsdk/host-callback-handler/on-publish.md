@@ -3,4 +3,4 @@
 # onPublish
 
 \
-fun [onPublish](on-publish.md)(intent: ActionIntent, publishParams: PublishParams)
+fun [onPublish](on-publish.md)(intent: [ActionIntent](../action-intent/index.md), publishParams: [PublishParams](../publish-params/index.md))

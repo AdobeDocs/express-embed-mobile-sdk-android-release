@@ -3,7 +3,7 @@
 # onActionClosed
 
 \
-abstract fun [onActionClosed](on-action-closed.md)(actionIntent: ActionIntent?, closeReason: [ContainerCloseReason](../container-close-reason/index.md))
+abstract fun [onActionClosed](on-action-closed.md)(actionIntent: [ActionIntent](../action-intent/index.md)?, closeReason: [ContainerCloseReason](../container-close-reason/index.md))
 
 Called when an action is closed for any reason
 

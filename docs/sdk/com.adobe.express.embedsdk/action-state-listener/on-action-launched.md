@@ -3,7 +3,7 @@
 # onActionLaunched
 
 \
-abstract fun [onActionLaunched](on-action-launched.md)(actionIntent: ActionIntent)
+abstract fun [onActionLaunched](on-action-launched.md)(actionIntent: [ActionIntent](../action-intent/index.md))
 
 Called when an action is successfully launched
 

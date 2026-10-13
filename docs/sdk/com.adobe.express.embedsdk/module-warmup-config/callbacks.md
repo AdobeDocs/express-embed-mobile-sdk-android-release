@@ -3,4 +3,4 @@
 # callbacks
 
 \
-var [callbacks](callbacks.md): Callbacks?
+var [callbacks](callbacks.md): [Callbacks](../callbacks/index.md)?

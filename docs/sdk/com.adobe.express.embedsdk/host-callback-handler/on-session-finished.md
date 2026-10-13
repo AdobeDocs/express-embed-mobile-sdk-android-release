@@ -3,4 +3,4 @@
 # onSessionFinished
 
 \
-fun [onSessionFinished](on-session-finished.md)(forIntent: ActionIntent?)
+fun [onSessionFinished](on-session-finished.md)(forIntent: [ActionIntent](../action-intent/index.md)?)

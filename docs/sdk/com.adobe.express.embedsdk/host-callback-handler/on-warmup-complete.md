@@ -3,4 +3,4 @@
 # onWarmupComplete
 
 \
-fun [onWarmupComplete](on-warmup-complete.md)(forIntent: ActionIntent?)
+fun [onWarmupComplete](on-warmup-complete.md)(forIntent: [ActionIntent](../action-intent/index.md)?)

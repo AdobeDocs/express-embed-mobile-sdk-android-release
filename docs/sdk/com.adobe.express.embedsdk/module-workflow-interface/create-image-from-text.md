@@ -3,6 +3,6 @@
 # createImageFromText
 
 \
-abstract fun [createImageFromText](create-image-from-text.md)(textToImageAppConfig: TextToImageAppConfig? = null, exportConfig: ExportConfig? = null, containerConfig: ContainerConfig? = null, fragment: [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html))
+abstract fun [createImageFromText](create-image-from-text.md)(textToImageAppConfig: TextToImageAppConfig? = null, exportConfig: [ExportConfig](../export-config/index.md)? = null, containerConfig: [ContainerConfig](../container-config/index.md)? = null, fragment: [Fragment](https://developer.android.com/reference/kotlin/androidx/fragment/app/Fragment.html))
 
 Launches the text-to-image generation workflow.

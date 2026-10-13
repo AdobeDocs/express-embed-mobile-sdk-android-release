@@ -3,4 +3,4 @@
 # validateConfigParams
 
 \
-abstract fun &lt;[T](validate-config-params.md) : ConfigParamsBase&gt; [validateConfigParams](validate-config-params.md)(configParams: [T](validate-config-params.md))
+abstract fun &lt;[T](validate-config-params.md) : [ConfigParamsBase](../config-params-base/index.md)&gt; [validateConfigParams](validate-config-params.md)(configParams: [T](validate-config-params.md))

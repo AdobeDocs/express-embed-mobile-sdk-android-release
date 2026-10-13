@@ -9,4 +9,4 @@ interface [ContainerDelegate](index.md)
 
 | Name | Summary |
 |---|---|
-| [getTargetInfoInternal](get-target-info-internal.md) | <br>abstract fun [getTargetInfoInternal](get-target-info-internal.md)(): TargetInfo |
+| [getTargetInfoInternal](get-target-info-internal.md) | <br>abstract fun [getTargetInfoInternal](get-target-info-internal.md)(): [TargetInfo](../target-info/index.md) |

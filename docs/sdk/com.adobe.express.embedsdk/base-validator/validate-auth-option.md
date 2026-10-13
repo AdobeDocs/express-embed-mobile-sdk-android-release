@@ -3,4 +3,4 @@
 # validateAuthOption
 
 \
-abstract fun [validateAuthOption](validate-auth-option.md)(authOption: AuthOption)
+abstract fun [validateAuthOption](validate-auth-option.md)(authOption: [AuthOption](../auth-option/index.md))

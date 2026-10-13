@@ -3,4 +3,4 @@
 # TemplateEditorWarmupConfig
 
 \
-constructor(quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, exportConfig: ExportConfig? = null)
+constructor(quickActionAppConfig: TemplateEditorQuickActionAppConfig? = null, exportConfig: [ExportConfig](../export-config/index.md)? = null)

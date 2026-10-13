@@ -3,6 +3,6 @@
 # colorTheme
 
 \
-val [colorTheme](color-theme.md): ColorTheme? = null
+val [colorTheme](color-theme.md): [ColorTheme](../color-theme/index.md)? = null
 
 Color theme used for Quick Action workflow

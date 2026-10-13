@@ -3,7 +3,7 @@
 # invoke
 
 \
-abstract fun [invoke](invoke.md)(): AuthOption
+abstract fun [invoke](invoke.md)(): [AuthOption](../auth-option/index.md)
 
 Provides the authentication option for the current session.
 

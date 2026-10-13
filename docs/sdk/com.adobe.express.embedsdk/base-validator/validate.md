@@ -3,4 +3,4 @@
 # validate
 
 \
-abstract fun &lt;[A](validate.md) : ActionIntent, [T](validate.md) : DesignConfig&gt; [validate](validate.md)(intent: [A](validate.md), input: [T](validate.md))
+abstract fun &lt;[A](validate.md) : [ActionIntent](../action-intent/index.md), [T](validate.md) : [DesignConfig](../design-config/index.md)&gt; [validate](validate.md)(intent: [A](validate.md), input: [T](validate.md))

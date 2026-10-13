@@ -3,13 +3,13 @@
 # HostCallbackHandler
 
 \
-class [HostCallbackHandler](index.md)(hostCallbacks: Callbacks? = null)
+class [HostCallbackHandler](index.md)(hostCallbacks: [Callbacks](../callbacks/index.md)? = null)
 
 ## Constructors
 
 | | |
 |---|---|
-| [HostCallbackHandler](host-callback-handler.md) | <br>constructor(hostCallbacks: Callbacks? = null) |
+| [HostCallbackHandler](host-callback-handler.md) | <br>constructor(hostCallbacks: [Callbacks](../callbacks/index.md)? = null) |
 
 ## Functions
 
@@ -23,7 +23,7 @@ class [HostCallbackHandler](index.md)(hostCallbacks: Callbacks? = null)
 | [onLoadInitBegin](on-load-init-begin.md) | <br>fun [onLoadInitBegin](on-load-init-begin.md)() |
 | [onLoadStart](on-load-start.md) | <br>fun [onLoadStart](on-load-start.md)() |
 | [onLoadStartBegin](on-load-start-begin.md) | <br>fun [onLoadStartBegin](on-load-start-begin.md)() |
-| [onPublish](on-publish.md) | <br>fun [onPublish](on-publish.md)(intent: ActionIntent, publishParams: PublishParams) |
+| [onPublish](on-publish.md) | <br>fun [onPublish](on-publish.md)(intent: [ActionIntent](../action-intent/index.md), publishParams: [PublishParams](../publish-params/index.md)) |
 | [onPublishStart](on-publish-start.md) | <br>fun [onPublishStart](on-publish-start.md)() |
-| [onSessionFinished](on-session-finished.md) | <br>fun [onSessionFinished](on-session-finished.md)(forIntent: ActionIntent?) |
-| [onWarmupComplete](on-warmup-complete.md) | <br>fun [onWarmupComplete](on-warmup-complete.md)(forIntent: ActionIntent?) |
+| [onSessionFinished](on-session-finished.md) | <br>fun [onSessionFinished](on-session-finished.md)(forIntent: [ActionIntent](../action-intent/index.md)?) |
+| [onWarmupComplete](on-warmup-complete.md) | <br>fun [onWarmupComplete](on-warmup-complete.md)(forIntent: [ActionIntent](../action-intent/index.md)?) |
