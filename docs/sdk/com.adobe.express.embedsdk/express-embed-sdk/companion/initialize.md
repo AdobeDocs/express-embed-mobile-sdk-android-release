@@ -3,7 +3,7 @@
 # initialize
 
 \
-fun [initialize](initialize.md)(hostInfo: HostInfo, configParams: ConfigParams, authProvider: [AuthProvider](../../auth-provider/index.md)? = null, appContext: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), sdkCallBacks: EmbedSdkCallbacks? = null, clientAuthProvider: [ClientAuthProvider](../../client-auth-provider/index.md)? = null): [CCEverywhereInterface](../../c-c-everywhere-interface/index.md)
+fun [initialize](initialize.md)(hostInfo: HostInfo, configParams: ConfigParams, authProvider: [AuthProvider](../../auth-provider/index.md)? = null, appContext: [Context](https://developer.android.com/reference/kotlin/android/content/Context.html), sdkCallBacks: EmbedSdkCallbacks? = null, clientAuthProvider: [ClientAuthProvider](../../client-auth-provider/index.md)? = null, aepIdentityProvider: AepIdentityProvider? = null, userProfile: UserProfile? = null): [CCEverywhereInterface](../../c-c-everywhere-interface/index.md)
 
 This is the main API which is used for initializing the SDK. Please ensure to call this API only once.
 

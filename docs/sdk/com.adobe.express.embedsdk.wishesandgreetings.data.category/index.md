@@ -1,0 +1,12 @@
+//[sdk](../../index.md)/[com.adobe.express.embedsdk.wishesandgreetings.data.category](index.md)
+
+# Package-level declarations
+
+## Types
+
+| Name | Summary |
+|---|---|
+| [WishesAndGreetingsCategoriesRepositoryImpl](wishes-and-greetings-categories-repository-impl/index.md) | <br>class [WishesAndGreetingsCategoriesRepositoryImpl](wishes-and-greetings-categories-repository-impl/index.md)(settingsSource: [WishesAndGreetingsSettingsSource](wishes-and-greetings-settings-source/index.md), isProd: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html), gson: Gson = Gson()) : [WishesAndGreetingsCategoriesRepository](../com.adobe.express.embedsdk.wishesandgreetings.domain.repository/wishes-and-greetings-categories-repository/index.md)<br>Loads the Wishes & greetings category catalog: attempts the remote `wishesTemplateCategories` settings fetch, gson-parses `{ "categories": [...] }`, and falls back to [WishesAndGreetingsCategoryDefaults](wishes-and-greetings-category-defaults/index.md) on a null value, parse failure, exception, or empty parsed list. |
+| [WishesAndGreetingsCategoryDefaults](wishes-and-greetings-category-defaults/index.md) | <br>object [WishesAndGreetingsCategoryDefaults](wishes-and-greetings-category-defaults/index.md)<br>Hardcoded prod/stage Wishes & greetings catalogs; labels are string resources so they can be localized. |
+| [WishesAndGreetingsRemoteSettingsSource](wishes-and-greetings-remote-settings-source/index.md) | <br>class [WishesAndGreetingsRemoteSettingsSource](wishes-and-greetings-remote-settings-source/index.md)(baseUrl: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html), httpClient: HttpClient, json: Json = Json { ignoreUnknownKeys = true }) : [WishesAndGreetingsSettingsSource](wishes-and-greetings-settings-source/index.md)<br>Ports theo-android's `NativeFeatureFlagsRepository.getSettingValue` HTTP contract for the Wishes & greetings category catalog: a single unauthenticated `GET {baseUrl}default?feature-flags=…& settings=<key>` against the Hz experimentation (`_rr_`) endpoint, whose response envelope is `{ "features": { … }, "settings": { "<key>": <value> } }`. |
+| [WishesAndGreetingsSettingsSource](wishes-and-greetings-settings-source/index.md) | <br>fun interface [WishesAndGreetingsSettingsSource](wishes-and-greetings-settings-source/index.md)<br>Clean seam for reading a remote experimentation &quot;setting&quot; value by key. |

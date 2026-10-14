@@ -3,4 +3,4 @@
 # onCancel
 
 \
-fun [onCancel](on-cancel.md)(reason: CancelReason)
+fun [onCancel](on-cancel.md)(reason: CancelReason, cancelMessageData: CancelCTA? = null)

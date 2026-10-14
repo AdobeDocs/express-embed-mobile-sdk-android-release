@@ -15,6 +15,8 @@ enum [ErrorMessages](index.md) : [Enum](https://kotlinlang.org/api/latest/jvm/st
 | [SDK_INITIALIZATION_FAILED](s-d-k_-i-n-i-t-i-a-l-i-z-a-t-i-o-n_-f-a-i-l-e-d/index.md) | <br>[SDK_INITIALIZATION_FAILED](s-d-k_-i-n-i-t-i-a-l-i-z-a-t-i-o-n_-f-a-i-l-e-d/index.md) |
 | [WORKFLOW_ALREADY_IN_PROGRESS](w-o-r-k-f-l-o-w_-a-l-r-e-a-d-y_-i-n_-p-r-o-g-r-e-s-s/index.md) | <br>[WORKFLOW_ALREADY_IN_PROGRESS](w-o-r-k-f-l-o-w_-a-l-r-e-a-d-y_-i-n_-p-r-o-g-r-e-s-s/index.md) |
 | [SDK_INTERNAL_ERROR](s-d-k_-i-n-t-e-r-n-a-l_-e-r-r-o-r/index.md) | <br>[SDK_INTERNAL_ERROR](s-d-k_-i-n-t-e-r-n-a-l_-e-r-r-o-r/index.md) |
+| [SDK_INTERNAL_ERROR_JOB_CANCELLED](s-d-k_-i-n-t-e-r-n-a-l_-e-r-r-o-r_-j-o-b_-c-a-n-c-e-l-l-e-d/index.md) | <br>[SDK_INTERNAL_ERROR_JOB_CANCELLED](s-d-k_-i-n-t-e-r-n-a-l_-e-r-r-o-r_-j-o-b_-c-a-n-c-e-l-l-e-d/index.md) |
+| [WARMUP_REJECTED](w-a-r-m-u-p_-r-e-j-e-c-t-e-d/index.md) | <br>[WARMUP_REJECTED](w-a-r-m-u-p_-r-e-j-e-c-t-e-d/index.md) |
 | [WARMUP_INVALID_INTENT](w-a-r-m-u-p_-i-n-v-a-l-i-d_-i-n-t-e-n-t/index.md) | <br>[WARMUP_INVALID_INTENT](w-a-r-m-u-p_-i-n-v-a-l-i-d_-i-n-t-e-n-t/index.md) |
 | [INVALID_INTENT](i-n-v-a-l-i-d_-i-n-t-e-n-t/index.md) | <br>[INVALID_INTENT](i-n-v-a-l-i-d_-i-n-t-e-n-t/index.md) |
 | [NO_ACTIVE_WORKFLOW](n-o_-a-c-t-i-v-e_-w-o-r-k-f-l-o-w/index.md) | <br>[NO_ACTIVE_WORKFLOW](n-o_-a-c-t-i-v-e_-w-o-r-k-f-l-o-w/index.md) |
@@ -36,10 +38,17 @@ enum [ErrorMessages](index.md) : [Enum](https://kotlinlang.org/api/latest/jvm/st
 | [PRELOAD_OPTIMIZATION_UNSUPPORTED](p-r-e-l-o-a-d_-o-p-t-i-m-i-z-a-t-i-o-n_-u-n-s-u-p-p-o-r-t-e-d/index.md) | <br>[PRELOAD_OPTIMIZATION_UNSUPPORTED](p-r-e-l-o-a-d_-o-p-t-i-m-i-z-a-t-i-o-n_-u-n-s-u-p-p-o-r-t-e-d/index.md) |
 | [CLIENT_AUTH_PROVIDER_ERROR](c-l-i-e-n-t_-a-u-t-h_-p-r-o-v-i-d-e-r_-e-r-r-o-r/index.md) | <br>[CLIENT_AUTH_PROVIDER_ERROR](c-l-i-e-n-t_-a-u-t-h_-p-r-o-v-i-d-e-r_-e-r-r-o-r/index.md) |
 | [UNSUPPORTED_API](u-n-s-u-p-p-o-r-t-e-d_-a-p-i/index.md) | <br>[UNSUPPORTED_API](u-n-s-u-p-p-o-r-t-e-d_-a-p-i/index.md) |
+| [UNSUPPORTED_MOBILE_TOOLBAR_OPTION](u-n-s-u-p-p-o-r-t-e-d_-m-o-b-i-l-e_-t-o-o-l-b-a-r_-o-p-t-i-o-n/index.md) | <br>[UNSUPPORTED_MOBILE_TOOLBAR_OPTION](u-n-s-u-p-p-o-r-t-e-d_-m-o-b-i-l-e_-t-o-o-l-b-a-r_-o-p-t-i-o-n/index.md) |
 | [WORKFLOW_CONTEXT_NOT_FOUND](w-o-r-k-f-l-o-w_-c-o-n-t-e-x-t_-n-o-t_-f-o-u-n-d/index.md) | <br>[WORKFLOW_CONTEXT_NOT_FOUND](w-o-r-k-f-l-o-w_-c-o-n-t-e-x-t_-n-o-t_-f-o-u-n-d/index.md) |
 | [API_TIMEOUT_ERROR](a-p-i_-t-i-m-e-o-u-t_-e-r-r-o-r/index.md) | <br>[API_TIMEOUT_ERROR](a-p-i_-t-i-m-e-o-u-t_-e-r-r-o-r/index.md) |
 | [INVALID_CLIENT_ID](i-n-v-a-l-i-d_-c-l-i-e-n-t_-i-d/index.md) | <br>[INVALID_CLIENT_ID](i-n-v-a-l-i-d_-c-l-i-e-n-t_-i-d/index.md) |
 | [CLOSE_TIMEOUT_EXCEPTION](c-l-o-s-e_-t-i-m-e-o-u-t_-e-x-c-e-p-t-i-o-n/index.md) | <br>[CLOSE_TIMEOUT_EXCEPTION](c-l-o-s-e_-t-i-m-e-o-u-t_-e-x-c-e-p-t-i-o-n/index.md) |
+| [WEB_VIEW_NOT_AVAILABLE](w-e-b_-v-i-e-w_-n-o-t_-a-v-a-i-l-a-b-l-e/index.md) | <br>[WEB_VIEW_NOT_AVAILABLE](w-e-b_-v-i-e-w_-n-o-t_-a-v-a-i-l-a-b-l-e/index.md) |
+| [WEB_VIEW_CRASHED](w-e-b_-v-i-e-w_-c-r-a-s-h-e-d/index.md) | <br>[WEB_VIEW_CRASHED](w-e-b_-v-i-e-w_-c-r-a-s-h-e-d/index.md) |
+| [AEP_INIT_FAILED](a-e-p_-i-n-i-t_-f-a-i-l-e-d/index.md) | <br>[AEP_INIT_FAILED](a-e-p_-i-n-i-t_-f-a-i-l-e-d/index.md) |
+| [ANNOTATION_PREVIEW_SCREEN_ERROR](a-n-n-o-t-a-t-i-o-n_-p-r-e-v-i-e-w_-s-c-r-e-e-n_-e-r-r-o-r/index.md) | <br>[ANNOTATION_PREVIEW_SCREEN_ERROR](a-n-n-o-t-a-t-i-o-n_-p-r-e-v-i-e-w_-s-c-r-e-e-n_-e-r-r-o-r/index.md) |
+| [ANNOTATION_PREVIEW_HOST_STATE_LOST](a-n-n-o-t-a-t-i-o-n_-p-r-e-v-i-e-w_-h-o-s-t_-s-t-a-t-e_-l-o-s-t/index.md) | <br>[ANNOTATION_PREVIEW_HOST_STATE_LOST](a-n-n-o-t-a-t-i-o-n_-p-r-e-v-i-e-w_-h-o-s-t_-s-t-a-t-e_-l-o-s-t/index.md) |
+| [IMAGE_EDITOR_SDK_INITIALIZATION_FAILED](i-m-a-g-e_-e-d-i-t-o-r_-s-d-k_-i-n-i-t-i-a-l-i-z-a-t-i-o-n_-f-a-i-l-e-d/index.md) | <br>[IMAGE_EDITOR_SDK_INITIALIZATION_FAILED](i-m-a-g-e_-e-d-i-t-o-r_-s-d-k_-i-n-i-t-i-a-l-i-z-a-t-i-o-n_-f-a-i-l-e-d/index.md) |
 
 ## Types
 

@@ -3,13 +3,13 @@
 # ContainerProperties
 
 \
-data class [ContainerProperties](index.md)(val size: [ContainerSize](../container-size/index.md)? = null, val targetDomain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html)? = null, val keepTargetHidden: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html)? = null, val colorTheme: ColorTheme? = null, val containerConfig: ContainerConfig? = null) : [Parcelable](https://developer.android.com/reference/kotlin/android/os/Parcelable.html)
+data class [ContainerProperties](index.md)(val size: [ContainerSize](../container-size/index.md)? = null, val targetDomain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html)? = null, val keepTargetHidden: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html)? = null, val colorTheme: ColorTheme? = null, val containerConfig: ContainerConfig? = null, val skipLoaderWebView: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html) = false) : [Parcelable](https://developer.android.com/reference/kotlin/android/os/Parcelable.html)
 
 ## Constructors
 
 | | |
 |---|---|
-| [ContainerProperties](container-properties.md) | <br>constructor(size: [ContainerSize](../container-size/index.md)? = null, targetDomain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html)? = null, keepTargetHidden: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html)? = null, colorTheme: ColorTheme? = null, containerConfig: ContainerConfig? = null) |
+| [ContainerProperties](container-properties.md) | <br>constructor(size: [ContainerSize](../container-size/index.md)? = null, targetDomain: [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html)? = null, keepTargetHidden: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html)? = null, colorTheme: ColorTheme? = null, containerConfig: ContainerConfig? = null, skipLoaderWebView: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html) = false) |
 
 ## Properties
 
@@ -19,4 +19,5 @@ data class [ContainerProperties](index.md)(val size: [ContainerSize](../containe
 | [containerConfig](container-config.md) | <br>val [containerConfig](container-config.md): ContainerConfig? = null |
 | [keepTargetHidden](keep-target-hidden.md) | <br>val [keepTargetHidden](keep-target-hidden.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html)? = null<br>Default is false for Editor workflows and true for pre-cache. |
 | [size](size.md) | <br>val [size](size.md): [ContainerSize](../container-size/index.md)? = null |
+| [skipLoaderWebView](skip-loader-web-view.md) | <br>val [skipLoaderWebView](skip-loader-web-view.md): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/boolean/index.html) = false |
 | [targetDomain](target-domain.md) | <br>val [targetDomain](target-domain.md): [String](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/string/index.html)? = null |
